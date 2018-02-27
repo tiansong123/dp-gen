@@ -19,7 +19,12 @@ var vm = new Vue({
 					+ vm.generator.requestMapping + '&viewPath='
 					+ vm.generator.viewPath + '&functionCode='
 					+ vm.generator.functionCode + '&type='
-					+ vm.generator.type);
+					+ vm.generator.type+ '&packageName='
+					+ vm.generator.packageName+ '&mapperPackageName='
+					+ vm.generator.mapperPackageName);
+			
+			
+			
 		}
 	}
 })
